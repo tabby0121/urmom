@@ -10,17 +10,10 @@ function close() {
   });
 }
 
-function download() {
-  downloadBtn.addEventListener("click", function () {
-    const link = document.createElement("a");
-    link.href = "img/reward/reward.png"; // change to your file path
-    link.download = "moonflower.png"; // name for the downloaded file
-    link.click();
-  });
-}
+
 
 btn.addEventListener("click", () => {
   modalContainer.style.display = "flex";
-  download();
+
   close();
 });
