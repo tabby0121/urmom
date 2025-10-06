@@ -103,7 +103,7 @@ function puzzle(formAnswer) {
     nextBtn.innerText = "To the Middle of Desert";
     nextBtn.disabled = false;
     nextBtn.addEventListener("click", () => {
-      window.location.href = "index.html";
+      window.location.href = "index01.html";
     });
   }
 }
