@@ -88,7 +88,7 @@ document.addEventListener("DOMContentLoaded", function () {
   function generateObstacles() {
     if (!isGameOver) {
       let randomTime = Math.random() * 3000 + 1000;
-      let obstaclePosition = 2000;
+      let obstaclePosition = 1500;
       const obstacle = document.createElement("div");
       obstacle.classList.add("obstacle");
       grid.appendChild(obstacle);
