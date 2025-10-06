@@ -293,16 +293,7 @@ button:active {
   text-align: left;
 }
 
-.img {
-  margin: 0 auto;
-  width: 80%;
-  height: 40vh;
-  background-color: antiquewhite;
-  background-image: url("../img/reward/reward_8bit.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; /* fill the container */
-}
+
 
 .btnLine {
   margin: 5% auto;
